@@ -1,0 +1,76 @@
+📚 Bookshelf – Sistema de Gerenciamento de Livros
+
+Um sistema simples de CRUD (Create, Read, Update, Delete) de livros, desenvolvido em Flask (Python) no backend e HTML, CSS e JavaScript no frontend.
+
+🚀 Tecnologias Utilizadas
+
+Backend: Python 3 + Flask
+
+Frontend: HTML5, CSS3, JavaScript
+
+Banco de Dados: Lista em memória (pode ser evoluído para SQLite ou MongoDB)
+
+Ambiente: Virtualenv
+
+📂 Estrutura de Pastas
+bookshelf/
+│── backend/
+│   ├── app.py        # Arquivo principal do Flask
+│   ├── routes.py     # Rotas da API
+│── frontend/
+│   ├── index.html    # Página principal
+│   ├── style.css     # Estilos
+│   ├── script.js     # Funções JS (CRUD)
+│── README.md         # Documentação
+
+⚙️ Instalação e Execução
+1️⃣ Clonar o repositório
+git clone https://github.com/seu-usuario/bookshelf.git
+cd bookshelf
+
+2️⃣ Criar ambiente virtual
+python -m venv .venv
+
+3️⃣ Ativar ambiente virtual
+
+Windows (PowerShell):
+
+.venv\Scripts\Activate.ps1
+
+
+Linux/Mac:
+
+source .venv/bin/activate
+
+4️⃣ Instalar dependências
+pip install flask
+
+5️⃣ Executar o servidor Flask
+python backend/app.py
+
+
+📌 O servidor rodará em:
+👉 http://127.0.0.1:5000
+
+🌐 Uso
+
+Abra o arquivo frontend/index.html no navegador.
+
+Cadastre livros pelo formulário.
+
+Visualize os livros listados na tabela.
+
+Edite ou exclua usando os botões da tabela.
+
+🔮 Próximos Passos (Evoluções Futuras)
+
+Persistência dos dados em SQLite ou MongoDB
+
+Tela de login e autenticação de usuários
+
+Deploy online (Heroku, Render, Railway)
+
+👨‍💻 Autor
+
+Desenvolvido por Wellington Carneiro, Nathália Leite e Thiago Aragão
+📌 Projeto acadêmico e de prática em desenvolvimento web.
