@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastrar Livro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<div class="perfil">
+<img src="img/foto-perfil.png" alt="Foto de perfil" class="foto-perfil">
+  <p>Bem-vindo à sua estante 📚</p>
+</div>
+<body>
+  <main>
+    <h1>Cadastrar Livro</h1>
+    <form id="formLivro">
+      <input type="text" placeholder="Título" name="titulo" id="titulo" required />
+      <input type="text" placeholder="Autor" name="autor" id="autor" required />
+      <input type="number" placeholder="Ano" name="ano" id="ano" required />
+      <button type="submit">Salvar</button>
+    </form>
+
+    <h2>📖 Livros cadastrados</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Ano</th>
+        </tr>
+      </thead>
+      <tbody id="book-list">
+        <!-- livros aparecem aqui -->
+      </tbody>
+    </table>
+
+
+    <p><a href="index.html">← Voltar para a lista principal</a></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
